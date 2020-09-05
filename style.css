@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+body {
+    font-size:18px;
+}
+
+.main-menu {
+    display: flex;
+    align-items: center;
+    background-color: black;
+ 
+}
+
+
+.opt-menu {
+    justify-content: flex-end;
+    width:100%;
+
+}
+
+.opt-menu li{
+    list-style: none;
+    width: 220px;
+    justify-content: center;
+    color:white;
+}
+.opt-menu a:hover{
+    background-color: white;
+    color: rgb(230, 45, 91);
+    border: 5px white solid;
+    border-radius: 30px;
+}
+
+h1 {
+    color: rgba(184, 11, 54, 0.897);
+    text-align: center;
+    font-family: 'Kalam', cursive;
+}
+/* 
+.title {
+    color: rgba(52, 207, 181, 0.897);
+
+}
+
+.flex-content {
+    height: 1000px;
+    background-color: crimson;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.borde-div {
+    background-color: violet;
+    font-size: 30px;
+    margin: 80px;
+    border:10px yellow solid;
+    border-style: double;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+*/
+.div-flex {
+    border-radius: 10px;
+}
+
+.container {
+    margin: 5% 10% 3% 8%;
+    font-family: 'Architects Daughter', cursive;
+    text-align: justify;
+    font-size: 20px;
+    border-radius: 30px ;
+}
+
+.container p {
+    font-size: 1em;
+}
+.main-charecters {
+    display: flex;
+    flex-wrap: wrap;  
+
+}
+.charecter img {
+    border-radius: 10%;
+    width: 90%;  
+}
+.charecter {
+    width: 25%;
+    height: 30%;
+    margin: 3%;
+    border: 2px rgb(202, 198, 198) solid;
+    border-right: 4px rgb(202, 198, 198) solid;
+    border-bottom: 4px rgbrgb(202, 198, 198) solid;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.charecter div {
+    text-align: justify;
+    padding: 5%;
+}
+
+.charecter h2 {
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+footer {
+    background: black;
+    color: white;
+    height: 90px;
+    text-align: center;
+
+}
+footer p{
+    padding: 30px;                           
+}
+.fa-heart {
+    color: red;
+    font-size: 20px;
+}

@@ -1,0 +1,30 @@
+.sec-flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sec-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2%;
+
+}
+.img-language {
+    width: 25%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.img-language img {
+    width: 80%;
+    height: 80%;
+}
+.img-language img:hover {
+    border: 5px pink solid;
+    border-radius: 30px;
+    box-shadow: 3px 5px 5px rgb(165, 127, 127);
+
+}
+
+
