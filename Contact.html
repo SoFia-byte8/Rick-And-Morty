@@ -3,10 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagenes/jpg" href="imagenes/lol.jpg">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Gayathri&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="AboutMe.css">
     <title>Contactos</title>
 </head>
 <body>
-    <h1>Formulario De Contactos </h1>   
+    <nav class="main-menu">
+        <div>
+            <img src="./Imagenes/It.jpg" width="140" height="140">
+        </div>
+        <ul class="main-menu opt-menu">
+            <li><a href="index.html" >Inicio</a></li></li>
+            <li><a href="AboutMe.html" >Sobre Mi</a></li>
+            <li><a href="Contact.html" target="_blank">Contáctenos</a></li> 
+        </ul>
+
+    </nav>
+    <div class="container">
+        <h1>Formulario De Contactos </h1><br><br>
+
+        <form method="POST" action="" colass="form-flex">
+        <div class="input-form">
+            <div><label for="Nombre">Nombre: </label></div>
+            <input id="Nombre" name="Nombre" type="text" placeholder="Ingrese Nombre">
+        </div>
+        <div class="input-form">
+            <div><laber for="Apellido"> Apellido:</laber></div>
+            <input id="Apellido" name="Apellido" type="text" placeholder="Ingrese Apellido">
+        </div>
+        <div class="input-form">
+            <div><label for="Edad">Edad: </label></div>
+            <input id="Edad" type="number" placeholder="Ingrese Edad">
+        </div>
+        <div class="input-form">
+            <div><label for="Email">Email: </label></div>
+            <input id="Email" type="text" placeholder="Ingrese Correo Eléctronico" required="email">
+        </div>
+        <div class="input-form">
+            <div><label for="Fecha Nacimiento">Fecha Nacimiento: </label></div>
+            <input id="Fecha Nacimiento" type="date">
+        </div>
+        <div class="input-form">
+            <div><label for=Password>Password: </label></div>
+            <input id="Password" type="Password" placeholder="Ingrese Contraseña">
+        </div>
+        <div>
+            <input id="Femenino" name="genero" type="radio">
+            <label for="Femenino">Femenino</label>
+        </div>
+        <div>
+            <input id="Masculino" name="genero" type="radio">
+            <label for="Masculino">Masculino</label>
+        </div>
+        <div>
+            <input id="Otro" name="genero" type="radio">
+            <label for="Otro">Otro</label>
+        </div><br>
+        <div class="form-button">
+         <button type="submit">Enviar</button>
+        </div>
+        </form>
+    </div>
+
+    
+    <footer>
+        <p> Hecho Con <i class="fas fa-heart"></i> Por Sofía Calderón </p>
+    </footer>
+    
+
     
 </body>
 </html>

@@ -98,7 +98,7 @@ h1 {
     margin: 3%;
     border: 2px rgb(202, 198, 198) solid;
     border-right: 4px rgb(202, 198, 198) solid;
-    border-bottom: 4px rgbrgb(202, 198, 198) solid;
+    border-bottom: 4px rgb(202, 198, 198) solid;
     border-radius: 5px;
     text-align: center;
 
@@ -127,4 +127,38 @@ footer p{
 .fa-heart {
     color: red;
     font-size: 20px;
+}
+
+.opt-menu a {
+    text-decoration:none;
+    color: white;
+}
+.form-flex {
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.input-form {
+    margin-bottom:2%;
+}
+.input-form div{
+    width: 30%;
+    float: left;
+}
+.input-form input {
+    width: 60%;
+}
+.form-button {
+    text-align: center;
+}
+.form-button button {
+    width: 18%;
+    height: 40px;
+    border: 2px rgba(184, 11, 54, 0.897) solid;
+    background-color: rgba(184, 11, 54, 0.897);
+    color: white;
+}
+.max-cambio {
+    width: 260%;
 }

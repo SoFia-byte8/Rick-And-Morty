@@ -14,13 +14,14 @@
     </style>
 </head>
 <body>
+    <script src="./script.js"></script>
     <nav class="main-menu">
         <div>
-            <img src="./Imagenes/888110.jpg" width="150" height="90">
+            <img src="./Imagenes/It.jpg" width="140" height="140">
         </div>
         <ul class="main-menu opt-menu">
-            <li><a href="index.html">Inicio</a></li></li>
-            <li><a href="AboutMe.html">Sobre Mi</a></li>
+            <li><a href="index.html"  target="_blank">Inicio</a></li></li>
+            <li><a href="AboutMe.html" >Sobre Mi</a></li>
             <li><a href="Contact.html" target="_blank">Contáctenos</a></li> 
         </ul>
 
@@ -55,32 +56,51 @@
     <section class="main-charecters">
         <article class="charecter">
             <header>
-                <h2>Rick Sanchez</h2>
+                <h2><div id="Nombre">Rick Sanchez</div></h2>
             </header>
             <img src="./Imagenes/morty.jpg" alt="Rick Sanchez" width="210" height="220" >
             <div>
                 <p><b>Genero:</b> Masculino</p>
                 <p><b>Especie:</b> Humano</p>
+                <div class="form-button max-cambio">
+                    <button type="submit"><a onclick="cambiarNombre('Nombre')">Cambiar Nombre</a></button>
+                </div>
             </div>
         </article>
         <article class="charecter">
             <header>
-                <h2>Morty Smith</h2>
+                <h2><div id="Nombre2">Morty Smith</div></h2>
             </header>
             <img src="./Imagenes/rick.jpg" alt="Morty Smith" width="210" height="220">
             <div>
                 <p><b>Genero:</b> Masculino</p>
                 <p><b>Especie:</b> Humano</p>
+                <div class="form-button max-cambio">
+                    <button type="submit"><a onclick="cambiarNombre2('Nombre2')">Cambiar Nombre</a></button>
+                </div>
             </div>
         </article>
 
         <article class="charecter">
             <header>
-                <h2>Beth Sanchez</h2>
+                <h2><div id="Nombre3">Beth Sanchez</div></h2>
             </header>
             <img src="./Imagenes/Beth.jpg" alt="Beth Sanchez" width="210" height="220">
             <div>
                 <p><b>Genero:</b> Femenino</p>
+                <p><b>Especie:</b> Humano</p>
+                <div class="form-button max-cambio">
+                    <button type="submit"><a onclick="cambiarNombre3('Nombre3')">Cambiar Nombre</a></button>
+                </div>
+            </div>
+        </article>
+        <article class="charecter">
+            <header>
+                <h2>Jerry Smith</h2>
+            </header>
+            <img src="./Imagenes/Jerry.jpg" alt="Jerry_Smith" width="210" height="220">
+            <div>
+                <p><b>Genero:</b> Masculino </p>
                 <p><b>Especie:</b> Humano</p>
             </div>
         </article>
@@ -112,6 +132,26 @@
             <div>
                 <p><b>Genero:</b> N/A</p>
                 <p><b>Especie:</b> Armagheadon</p>
+            </div>
+        </article>
+        <article class="charecter">
+            <header>
+                <h2>Reverse Giraffe</h2>
+            </header>
+            <img src="./Imagenes/Reverse.jpg" alt="Reverse" width="210" height="220">
+            <div>
+                <p><b>Genero:</b> Masculino </p>
+                <p><b>Especie:</b> Alien</p>
+            </div>
+        </article>
+        <article class="charecter">
+            <header>
+                <h2>Donna Gueterman</h2>
+            </header>
+            <img src="./Imagenes/donna.jpg" alt="donna" width="170" height="220">
+            <div>
+                <p><b>Genero:</b> Femenino</p>
+                <p><b>Especie:</b>Humano</p>
             </div>
         </article>
     </section>
